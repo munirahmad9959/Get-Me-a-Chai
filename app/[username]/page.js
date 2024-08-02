@@ -27,7 +27,7 @@ const Username = ({ params }) => {
             {/* Show list of all supporters as the leaderboard */}
             <h2 className='text-2xl font-bold my-5'>Supporters</h2>
             <ul className='mx-5'>
-            <li className='my-4 flex gap-2 items-center'>
+              <li className='my-4 flex gap-2 items-center'>
                 <img width={33} src="/avatarGifFlat.gif" className='border-2 border-black rounded-full' alt="" />
                 <span>
                   Ali donated <span className="font-bold">30$</span> with the message "I support you bro lots of ♥"
@@ -55,7 +55,7 @@ const Username = ({ params }) => {
               <input type="text" className='w-full p-3 rounded-lg bg-slate-800' placeholder='Enter Name' />
               <input type="text" className='w-full p-3 rounded-lg bg-slate-800' placeholder='Enter Message' />
               <input type="text" className='w-full p-3 rounded-lg bg-slate-800' placeholder='Enter Amount' />
-              <button type="button" class="text-white bg-gradient-to-br from-purple-900 to-blue-500 hover:bg-gradient-to-bl focus:ring-4 focus:outline-none focus:ring-blue-300 dark:focus:ring-blue-800 font-medium rounded-lg text-sm px-5 py-2.5 text-center me-2 mb-2">Pay</button>
+              <button type="button" className="text-white bg-gradient-to-br from-purple-900 to-blue-500 hover:bg-gradient-to-bl focus:ring-4 focus:outline-none focus:ring-blue-300 dark:focus:ring-blue-800 font-medium rounded-lg text-sm px-5 py-2.5 text-center me-2 mb-2">Pay</button>
             </div>
 
             <div className="flex gap-2 mt-5">

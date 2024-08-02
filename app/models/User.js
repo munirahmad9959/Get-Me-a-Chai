@@ -7,7 +7,9 @@ const UserSchema = new Schema({
     username: { type: String, required: true },
     profilePic: { type: String },
     coverPic: { type: String },
-})
+}, {
+    timestamps: true
+});
 
 
 export default mongoose.models.User || model("User", UserSchema);
